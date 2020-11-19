@@ -1,8 +1,8 @@
 # video-hls
 
-video-hls is hls.js for Web Components
+video-hls is hls.js for Web Components 🌎
 
-# usage
+# Usage
 
 ```html
 <!-- video element attributes -->

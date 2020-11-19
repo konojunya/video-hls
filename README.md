@@ -2,6 +2,8 @@
 
 video-hls is hls.js for Web Components 🌎
 
+![screenshot](https://user-images.githubusercontent.com/12035578/99622751-1e6a8a80-2a6e-11eb-9c55-338c3a986bce.png)
+
 # Usage
 
 ```html

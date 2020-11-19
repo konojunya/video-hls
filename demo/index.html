@@ -1,13 +1,31 @@
 <html>
   <head>
     <title>video-hls</title>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
   </head>
   <body>
-    <video-hls
-      src="https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
-      width="720"
-      controls="true"
-    ></video-hls>
-    <script src="https://video-hls.vercel.app/video-hls.js"></script>
+    <div class="container mx-auto p-10">
+      <h1 class="text-center text-5xl font-bold">&lt;video-hls&gt;</h1>
+      <video-hls
+        src="https://test-streams.mux.dev/x36xhzz/x36xhzz.m3u8"
+        controls="true"
+        style="display: block; width: 100%; margin: 32px auto 0"
+      ></video-hls>
+      <p class="text-center mt-3">
+        github:
+        <a
+          href="https://github.com/konojunya/video-hls"
+          class="underline text-blue-600"
+        >
+          github.com/konojunya/video-hls
+        </a>
+      </p>
+    </div>
+    <!-- <script src="https://video-hls.vercel.app/video-hls.js"></script> -->
   </body>
 </html>

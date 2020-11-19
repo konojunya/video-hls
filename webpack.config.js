@@ -1,4 +1,5 @@
 const path = require("path");
+const HtmlWebpackPlugin = require("html-webpack-plugin");
 
 const isProduction = process.env.NODE_ENV === "production";
 
@@ -25,4 +26,9 @@ module.exports = {
   resolve: {
     extensions: [".ts", ".tsx"],
   },
+  plugins: [
+    new HtmlWebpackPlugin({
+      template: "./demo/index.html"
+    })
+  ]
 };

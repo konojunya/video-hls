@@ -32,6 +32,8 @@ register(
     "muted",
     "poster",
     "preload",
+    "style",
+    "class",
   ],
   { shadow: true }
 );

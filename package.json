@@ -6,7 +6,8 @@
   "author": "konojunya <junya03dance@gmail.com>",
   "license": "MIT",
   "scripts": {
-    "build": "webpack"
+    "build": "webpack",
+    "postbuild": "cp ./demo/index.html ./dist/"
   },
   "devDependencies": {
     "@types/hls.js": "^0.13.3",
